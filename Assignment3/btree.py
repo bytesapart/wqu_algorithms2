@@ -147,37 +147,39 @@ class BTree(object):
 
 if __name__ == '__main__':
     # Construct a BTree of depth 3
-    b_tree = BTree(3)
+    b_tree = BTree(2)
     # Insert Elements into the BTree
-    print('Inserting 2 into the tree, the Tree Structure is now:\n')
-    b_tree.print_order()
+    print('Inserting 2 into the tree, the Tree Structure is now:')
     b_tree.insert(2)
-
-    print('Inserting 1 into the tree, the Tree Structure is now:\n')
     b_tree.print_order()
+
+    print('Inserting 1 into the tree, the Tree Structure is now:')
     b_tree.insert(1)
-
-    print('Inserting 5 into the tree, the Tree Structure is now:\n')
     b_tree.print_order()
+
+    print('Inserting 5 into the tree, the Tree Structure is now:')
     b_tree.insert(5)
-
-    print('Inserting 7 into the tree, the Tree Structure is now:\n')
     b_tree.print_order()
+
+    print('Inserting 7 into the tree, the Tree Structure is now:')
     b_tree.insert(7)
-
-    print('Inserting 3 into the tree, the Tree Structure is now:\n')
     b_tree.print_order()
+
+    print('Inserting 3 into the tree, the Tree Structure is now:')
     b_tree.insert(3)
-
-    print('Inserting 11 into the tree, the Tree Structure is now:\n')
     b_tree.print_order()
+
+    print('Inserting 11 into the tree, the Tree Structure is now:')
     b_tree.insert(11)
+    b_tree.print_order()
+
     # Print Sorted list of elements in the BTree
     print('Sorted List of elements in the BTree')
     b_tree.print_sorted_elements()
     # Print the BTree
-    print('The BTree')
+    print('\nThe BTree')
     b_tree.print_order()
+
     # Search Element
-    print('Search for key, while printing elements that have been traversed')
+    print('\nSearch for key, while printing elements that have been traversed')
     b_tree.search(11)

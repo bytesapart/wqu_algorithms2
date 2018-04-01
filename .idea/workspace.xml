@@ -82,7 +82,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -146,6 +146,7 @@
   </component>
   <component name="RunManager" selected="Python.branch_and_cut">
     <configuration name="branch_and_cut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -156,8 +157,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithm2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment7/branch_and_cut.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -165,6 +165,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="lp_solve" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -175,8 +176,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="algorithm2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment6/lp_solve.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -396,19 +396,16 @@
       <arguments />
       <envs />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.lp_solve" />
-      <item index="1" class="java.lang.String" itemvalue="Python.branch_and_cut" />
+    <list>
+      <item itemvalue="Python.lp_solve" />
+      <item itemvalue="Python.branch_and_cut" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.branch_and_cut" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lp_solve" />
+      <list>
+        <item itemvalue="Python.branch_and_cut" />
+        <item itemvalue="Python.lp_solve" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />

@@ -130,9 +130,6 @@ def main():
 
     # Assuming that function is steady and will keep changing the parameters one by one
 
-    #from scipy.optimize import minimize
-    #print(minimize(portfolio,[10,2,2,50],method='SLSQP',bounds=((10,200),(1,100),(1,10),(1,100))))
-
     max=0
     for period in range(10, 200, 30):
         if max < portfolio([period, 2, 2, 50]):
